@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5128249266247256550
+--- !u!114 &-3973483410865175238
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 4to
-  m_Shader: {fileID: -6465566751694194690, guid: 70380d41f8f0aa14aa77d7eaccd390e8, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 70380d41f8f0aa14aa77d7eaccd390e8, type: 3}
+  m_Name: NormalMap1
+  m_Shader: {fileID: -6465566751694194690, guid: d055a3245beec7c47a9f833e9e1651b1, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: d055a3245beec7c47a9f833e9e1651b1, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -38,9 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _QueueControl: 0
-    m_Colors:
-    - _light: {r: 1, g: 0.5, b: 0.2, a: 0}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 2do
-  m_Shader: {fileID: -6465566751694194690, guid: 7af2a5a7717dfcc4481d85d8d3051339, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 7af2a5a7717dfcc4481d85d8d3051339, type: 3}
+  m_Name: Lightsaber
+  m_Shader: {fileID: -6465566751694194690, guid: 9e2c40bbcf9407143b2fd9985fcbdb94, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: 9e2c40bbcf9407143b2fd9985fcbdb94, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -26,12 +26,13 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _Power: 0
     - _QueueControl: 0
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0.8616066, a: 1}
+    - _emition: {r: 18.764404, g: 0, b: 64, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4049974291113510740
+--- !u!114 &3322522340355779379
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
