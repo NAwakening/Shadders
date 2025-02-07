@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
-  m_Shader: {fileID: -6465566751694194690, guid: 826e3832fe6fbae4f8dfb23a74406787, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 826e3832fe6fbae4f8dfb23a74406787, type: 3}
+  m_Name: Disolve
+  m_Shader: {fileID: -6465566751694194690, guid: 373adc4791f5ecf4e8d846c3219a1e94, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: 373adc4791f5ecf4e8d846c3219a1e94, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -26,12 +26,15 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _OutlineIntensity: 0.03
+    - _CutOff: 9
+    - _Glow: 1.1
+    - _NoiseStrength: 10
     - _QueueControl: 0
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &5402288951202717206
+--- !u!114 &1313763633877147655
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
