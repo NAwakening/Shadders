@@ -46,6 +46,6 @@ Material:
     m_Colors:
     - _Color: {r: 0.55345345, g: 0, b: 1, a: 1}
     - _Color_1: {r: 0, g: 0, b: 0, a: 0}
-    - _colorpoint: {r: 18.713179, g: 0, b: 42.722507, a: 0}
+    - _colorpoint: {r: 4.6782947, g: 0, b: 10.680627, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
