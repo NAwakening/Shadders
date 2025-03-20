@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Disolve 1
-  m_Shader: {fileID: -6465566751694194690, guid: 373adc4791f5ecf4e8d846c3219a1e94, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 373adc4791f5ecf4e8d846c3219a1e94, type: 3}
+  m_Name: DeepSpace
+  m_Shader: {fileID: -6465566751694194690, guid: 11a8cfca2a4c3634c9fe6f67cc8f423f, type: 3}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -24,23 +24,31 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 9edb36d09a9c7d540818adbb148f675b, type: 3}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CutOff: 7
-    - _Glow: 0.63
-    - _NoiseScale: 63.12
-    - _NoiseStrength: 13.86
+    - _NoiseScale: 100
     - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Speed: 0.01
+    - _fresnelPower: 8
     m_Colors:
-    - _Color: {r: 1.3350784, g: 1.2671815, b: 0.4849105, a: 1}
-    - _colorGlow: {r: 0, g: 330.35645, b: 598.9436, a: 0}
+    - _FresnelColor: {r: 0, g: 1.9381196, b: 3.9999995, a: 0}
+    - _StarColor: {r: 0.209424, g: 3.9999995, b: 1.005848, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1313763633877147655
+--- !u!114 &3451509747852505065
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

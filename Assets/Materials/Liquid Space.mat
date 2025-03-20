@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8843006012056249105
+--- !u!114 &-1307686493421515793
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LiquidMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 2bf7b2943332d3f49b118707116e2c86, type: 3}
+  m_Name: Liquid Space
+  m_Shader: {fileID: -6465566751694194690, guid: 81e66bb5cf526a74ab22125c6088e7c1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -52,17 +52,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _Fill: 0
-    - _PositionZ: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _WobbleX: 1
     - _WobbleZ: 1
-    - _positionX: 0
-    - _power: 5
+    - _power: 8
     m_Colors:
-    - _BackColor: {r: 1, g: 0.4764151, b: 0.9847535, a: 0}
-    - _Color: {r: 0.9056604, g: 0.4485582, b: 0.47069675, a: 0}
+    - _BackColor: {r: 1, g: 0.26274508, b: 0.5110597, a: 0}
     - _ColorFront: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnelColor: {r: 0.2513084, g: 0.33235908, b: 15.999998, a: 0}
+    - _FresnelColor: {r: 0.020114303, g: 0, b: 0.0625, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

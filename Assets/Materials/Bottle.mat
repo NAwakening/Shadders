@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8843006012056249105
+--- !u!114 &-3410826536365284649
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,13 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LiquidMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 2bf7b2943332d3f49b118707116e2c86, type: 3}
+  m_Name: Bottle
+  m_Shader: {fileID: -6465566751694194690, guid: cb40b68358c41ae4db401d4aeba7c330, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -51,18 +51,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Fill: 0
-    - _PositionZ: 0
+    - _DsitortionStrenght: 5
+    - _NormalStrenght: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WobbleX: 1
-    - _WobbleZ: 1
-    - _positionX: 0
-    - _power: 5
+    - _Reflection_Intensity: 0
+    - _Tiling_Noise: 100
     m_Colors:
-    - _BackColor: {r: 1, g: 0.4764151, b: 0.9847535, a: 0}
-    - _Color: {r: 0.9056604, g: 0.4485582, b: 0.47069675, a: 0}
-    - _ColorFront: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnelColor: {r: 0.2513084, g: 0.33235908, b: 15.999998, a: 0}
+    - _bottleColer: {r: 0, g: 1, b: 0.12156868, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
