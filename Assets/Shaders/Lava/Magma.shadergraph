@@ -579,7 +579,7 @@
                 "m_Node": {
                     "m_Id": "844621e1c1504d3cb82c1eaf9f6bdabc"
                 },
-                "m_SlotId": 3
+                "m_SlotId": 4
             },
             "m_InputSlot": {
                 "m_Node": {
@@ -1446,10 +1446,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -775.9999389648438,
-            "y": 249.0,
-            "width": 208.00006103515626,
-            "height": 326.00006103515627
+            "x": -671.999755859375,
+            "y": 248.99998474121095,
+            "width": 207.99990844726563,
+            "height": 325.99993896484377
         }
     },
     "m_Slots": [
@@ -1516,10 +1516,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2989.000244140625,
-            "y": 12.99999713897705,
+            "x": -2989.0,
+            "y": -21.0,
             "width": 161.0,
-            "height": 34.000038146972659
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -2262,9 +2262,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1046.9998779296875,
-            "y": 213.9999542236328,
-            "width": 207.9998779296875,
+            "x": -942.9998779296875,
+            "y": 200.00001525878907,
+            "width": 207.99993896484376,
             "height": 125.00001525878906
         }
     },
@@ -2433,7 +2433,7 @@
     "m_Title": "Lava Info",
     "m_Position": {
         "x": -1778.0,
-        "y": -85.99992370605469
+        "y": -86.0
     }
 }
 
@@ -2560,10 +2560,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -968.9998779296875,
-            "y": -26.999990463256837,
+            "x": -935.9998779296875,
+            "y": -26.999998092651368,
             "width": 130.0,
-            "height": 118.00003814697266
+            "height": 117.99999237060547
         }
     },
     "m_Slots": [
@@ -2748,21 +2748,6 @@
         "e32": 0.0,
         "e33": 1.0
     }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "614c1bb444074deeaa36f8c226ab7de6",
-    "m_Id": 4,
-    "m_DisplayName": "New (1)",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "New1",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
@@ -3130,7 +3115,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 0.10000000149011612,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -3198,10 +3183,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2786.000244140625,
-            "y": 205.0000457763672,
-            "width": 137.0,
-            "height": 33.99995422363281
+            "x": -2793.0,
+            "y": 254.00001525878907,
+            "width": 136.999755859375,
+            "height": 34.00001525878906
         }
     },
     "m_Slots": [
@@ -3536,7 +3521,7 @@
             "m_Id": "14086fad4c874a888df55b5d35105b1a"
         },
         {
-            "m_Id": "614c1bb444074deeaa36f8c226ab7de6"
+            "m_Id": "ce35b8115fac4887b54170e8a6187dd5"
         }
     ],
     "synonyms": [
@@ -3569,13 +3554,13 @@
     "m_RefNameGeneratedByDisplayName": "RockColor",
     "m_DefaultReferenceName": "_RockColor",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": false,
+    "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
     "m_DismissedVersion": 0,
     "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
+    "overrideHLSLDeclaration": true,
+    "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_Value": {
         "r": 1.0,
@@ -4274,7 +4259,7 @@
     "m_ObjectId": "a68b0df2841e4398bbc845847c90d67a",
     "m_Title": "VoronoiPattern",
     "m_Position": {
-        "x": -3175.999755859375,
+        "x": -3176.0,
         "y": -101.0
     }
 }
@@ -4601,10 +4586,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1146.0001220703125,
-            "y": -26.999988555908204,
-            "width": 130.0,
-            "height": 34.00000762939453
+            "x": -1094.9998779296875,
+            "y": -26.999998092651368,
+            "width": 129.99993896484376,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -5218,6 +5203,21 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ce35b8115fac4887b54170e8a6187dd5",
+    "m_Id": 4,
+    "m_DisplayName": "Cells",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Cells",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -6007,7 +6007,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 0.10000000149011612,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
