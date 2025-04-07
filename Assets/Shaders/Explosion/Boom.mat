@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-913902909403765504
+--- !u!114 &-6190228894530809088
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Invisible
-  m_Shader: {fileID: -6465566751694194690, guid: 00e85250391cd9649b0b8a9f0c4af16a, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 00e85250391cd9649b0b8a9f0c4af16a, type: 3}
+  m_Name: Boom
+  m_Shader: {fileID: -6465566751694194690, guid: f0661af66d68ec743aaa9c7f1235a5f1, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: f0661af66d68ec743aaa9c7f1235a5f1, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -39,9 +39,10 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _NoiseStrenght: -0.14
+    - _Move_Time: 0.5
     - _QueueControl: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Base_Color: {r: 1, g: 0.5180758, b: 0, a: 0.85882354}
+    - _FresnelColor: {r: 766.9961, g: 49.9419, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

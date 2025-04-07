@@ -27,8 +27,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _QueueControl: 0
-    - _noisestrenght: 0.1
-    - _slider: -0.02
+    - _noisestrenght: 0.15
+    - _slider: 0
     m_Colors:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
