@@ -34,8 +34,8 @@ public class Wobble : MonoBehaviour {
         wobbleAmountZ = wobbleAmountToAddZ * Mathf.Sin(pulse * time);
 
         // send it to the shader
-        rend.material.SetFloat("_WobbleX", wobbleAmountX);
-        rend.material.SetFloat("_WobbleZ", wobbleAmountZ);
+        rend.material.SetFloat("_PositionX", wobbleAmountX);
+        rend.material.SetFloat("_PositionZ", wobbleAmountZ);
 
         // velocity
         velocity = (lastPos - transform.position) / Time.deltaTime;
